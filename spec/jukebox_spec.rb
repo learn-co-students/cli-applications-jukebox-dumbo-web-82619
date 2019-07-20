@@ -89,7 +89,7 @@ describe "CLI Jukebox" do
       list_output = capture_stdout { run(songs) }
       expect(list_output).to include("Please enter a command:").and include("Please enter a song name or number:").and include("Playing Phoenix - 1901")
     end
-
+    
   end
 
 end
