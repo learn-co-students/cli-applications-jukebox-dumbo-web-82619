@@ -122,7 +122,7 @@ describe "CLI Jukebox" do
       allow(self).to receive(:gets).and_return("play", "1", "exit")
       expect{ run(songs) }.to output(/Playing Phoenix - 1901/).to_stdout
     end
-
+    
   end
 
 end
